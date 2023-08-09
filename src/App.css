@@ -1,0 +1,96 @@
+:root {
+  --black-shadow: 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000;
+  --rainbow-border: drop-shadow(0px -10px 5px #000000) drop-shadow(0 -5px 2px #FF0000) drop-shadow(0 5px 2px #FF7F00) drop-shadow(0 0px 2px #FFFF00) drop-shadow(0 -1px 2px #00FF00) drop-shadow(0 3px 2px #0000FF) drop-shadow(0 2px 2px #2E2B5F) drop-shadow(0 1px 2px #8B00FF);
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+.App {
+  text-align: center;
+  transition: all 5s;
+  margin: 1%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: gray;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  margin: 5px;
+}
+
+.btn:hover {
+  transition: all .75s;
+  align-items: center;
+  justify-content: center;
+  /* box-shadow: var(--black-shadow); */
+  text-decoration: none;
+  filter: var(--rainbow-border);
+}
+.row {
+  margin: 2%;
+}
+.col {
+  margin: 2%;
+}
+.navbar {
+  background: linear-gradient(217deg, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0) 70.71%), linear-gradient(127deg, rgb(232, 232, 232), rgba(225, 225, 225, 0) 70.71%), linear-gradient(336deg, rgba(210, 210, 210, 0.8), rgb(232, 232, 232) 70.71%)
+}
+.navbar-brand {
+  font-size: 36px;  
+  font-weight: 800;
+  color: #1b1b1b;
+}
+
+.portfolio-item {
+  background-color: rgb(255, 255, 255);
+  padding: 3%;
+  margin: 2%;
+  border: 1px solid black;
+  /* filter: var(--rainbow-border); */
+
+}
+
+a {
+  color: black;
+  text-decoration: none;
+} 
+
+h2 {
+  color: black;
+  font-size: 2em;
+  text-transform: uppercase;
+}
