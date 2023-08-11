@@ -1,6 +1,8 @@
 :root {
-  --black-shadow: 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000, 0 0 .5em #000;
-  --rainbow-border: drop-shadow(0px -10px 5px #000000) drop-shadow(0 -5px 2px #FF0000) drop-shadow(0 5px 2px #FF7F00) drop-shadow(0 0px 2px #FFFF00) drop-shadow(0 -1px 2px #00FF00) drop-shadow(0 3px 2px #0000FF) drop-shadow(0 2px 2px #2E2B5F) drop-shadow(0 1px 2px #8B00FF);
+  --black-shadow: 0 0 .5em #000;
+  --partial-rainbow-border: drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px #000000) drop-shadow(0 0px 1px #FF0000) drop-shadow(0 0px 1px #FFFF00) drop-shadow(0 0px 1px #00FF00) drop-shadow(0 0px 10px #0000FF) drop-shadow(0 0px 15px #2E2B5F) drop-shadow(0 0px 20px #8B00FF);
+  --rainbow-border: drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px #000000) drop-shadow(0 0px 1px #FF0000) drop-shadow(0 0px 1px #FFFF00) drop-shadow(0 0px 1px #00FF00) drop-shadow(0 0px 10px #0000FF) drop-shadow(0 0px 15px #2E2B5F) drop-shadow(0 0px 20px #8B00FF);
+  --grey-gradient: linear-gradient(217deg, rgba(245, 245, 245, 0.5), rgba(245, 245, 245, 0) 70.71%), linear-gradient(127deg, rgb(232, 232, 232, .75), rgba(225, 225, 225, 0) 70.71%), linear-gradient(336deg, rgba(210, 210, 210, 0.8), rgb(232, 232, 232) 70.71%);
 }
 
 body {
@@ -8,7 +10,7 @@ body {
 }
 
 .App {
-  text-align: center;
+  text-align: left;
   transition: all 5s;
   margin: 1%;
 }
@@ -22,6 +24,10 @@ body {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.navbar {
+  box-shadow: var(--black-shadow);
 }
 
 .App-header {
@@ -50,16 +56,45 @@ body {
 
 .btn {
   margin: 5px;
+  color: black;
+  /* border: 1px solid black; */
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .btn:hover {
-  transition: all .75s;
-  align-items: center;
-  justify-content: center;
-  /* box-shadow: var(--black-shadow); */
-  text-decoration: none;
-  filter: var(--rainbow-border);
+  animation: 5s linear 1s infinite alternate btn-text-cycle;
 }
+
+@keyframes btn-text-cycle {
+  0% {
+    /* box-shadow: var(--black-shadow); */
+    box-shadow: black;
+    color: black;
+  }
+  14% {
+    color: red;
+  }
+  28% {
+    color: orange;
+  }
+  42% {
+    color: yellow;
+  }
+  56% {
+    color: greenyellow;
+  }
+  70% {
+    color: blue;
+  }
+  84% {
+    color: indigo;
+  }
+  100% {
+    color: violet;
+  }
+}
+
 .row {
   margin: 2%;
 }
@@ -67,7 +102,7 @@ body {
   margin: 2%;
 }
 .navbar {
-  background: linear-gradient(217deg, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0) 70.71%), linear-gradient(127deg, rgb(232, 232, 232), rgba(225, 225, 225, 0) 70.71%), linear-gradient(336deg, rgba(210, 210, 210, 0.8), rgb(232, 232, 232) 70.71%)
+  background: var(--grey-gradient);
 }
 .navbar-brand {
   font-size: 36px;  
@@ -79,7 +114,30 @@ body {
   background-color: rgb(255, 255, 255);
   padding: 3%;
   margin: 2%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  /* filter: var(--rainbow-border); */
+  box-shadow: var(--black-shadow);
+
+
+}
+
+.portfolio-item-gradient {
+  padding: 3%;
+
+  /* border: 1px solid black; */
+  /* filter: var(--rainbow-border); */
+  background: var(--grey-gradient);
+  box-shadow: var(--black-shadow);
+
+  /* filter: var(--rainbow-border); */
+
+
+}
+
+.portfolio-item:hover {
+  transition: all .5s;
+  transform: scale(1.0125 );
+  /* border: 1px solid black; */
   /* filter: var(--rainbow-border); */
 
 }
@@ -89,8 +147,32 @@ a {
   text-decoration: none;
 } 
 
+h1 {
+  color: black;
+}
 h2 {
   color: black;
   font-size: 2em;
   text-transform: uppercase;
+}
+
+.terrain {
+  color: #634b3f;
+}
+.trex {
+  color: #6c715d;
+}
+
+#art-trex-video {
+  border: 2px solid whitesmoke;
+}
+#web-chorechampion-video {
+  border: 5px solid black;
+}
+#web-chorechampion{
+  background-image: url('../public/web-chorechampion.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.chorechampion-heading {
 }

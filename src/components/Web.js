@@ -3,22 +3,31 @@ import '../custom.scss';
 import { Parallax, Background } from "react-parallax";
 
 function Web() {
+    useEffect(() => {
+        document.getElementById('web-chorechampion-video').playbackRate = 2;
+    });
     return (
-        <div id="web" className="row align-items-md-stretch">
-            <div className="col-md-6">
-                <div className="portfolio-item rounded-3">
-                    <div>
-                        <h2>Art</h2>
-                        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+        <div id="web" className="row gap-3 align-items-md-stretch">
+            <h2>Web</h2>
+            <hr></hr>
+            <br></br>
+            <div className="p-2 g-col-6">
+                <div id="web-chorechampion" className="d-flex justify-content-center p-5 rounded-3">
+                    <video className="rounded-4" id="web-chorechampion-video" src="web-chorechampion.mp4" width="276" height="564" autoPlay controls muted loop></video>
+                    <div className="g-col-6 portfolio-item-gradient h-100 align-items-center text-center align-self-center d-flex rounded-3">
+                    <div className="g-col-6 mx-auto">
+                        <h2 className="chorechampion-heading">CHORECHAMPION</h2>
+                        <p>CHORECHAMPION was a collaborative project during a coding bootcamp. I worked primarily on the UI/UX.</p>
+                        <p>Technologies used: JavaScript, CSS, Handlebars, mySQL, Sequelize.</p>
+                        <p>Use the login: 1@1.com, password: password12345</p>
+                        <a className="btn btn-primary rounded-2" href="https://chore-champion-6838d87c31f6.herokuapp.com/" target="_blank" rel="noreferrer">CHORECHAMPION</a> 
+                        <a href="https://github.com/markciubal/chore-champion" target="_blank" rel="noreferrer">
+                            <svg style={{marginTop: "-5px"}}  height="16" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
+                                <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                            </svg>
+                        </a>
                     </div>
-                    <button className="btn btn-outline-light" type="button">Example button</button>
                 </div>
-            </div>
-            <div className="col-md-6">
-                <div className="portfolio-item h-100 p-5 rounded-3">
-                <h2>Add borders</h2>
-                <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's content for equal-height.</p>
-                <button className="btn btn-outline-secondary" type="button">Example button</button>
                 </div>
             </div>
         </div>
