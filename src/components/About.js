@@ -96,7 +96,7 @@ const About = () => {
                         <p>
                             Learned the modern tools and processes behind full-stack development.
                         </p>
-                        <p>
+                        {/* <p>
                             Built several projects to help showcase my work!
                         </p>
                         <p>
@@ -107,7 +107,7 @@ const About = () => {
                             <input className="m-2 p-2 w-100 mx-auto rounded-2" type="text" id="email" placeholder="How can I reach you?"></input>
                             <input className="m-2 p-2 w-100 mx-auto rounded-2" type="text" id="message" placeholder="What do you want to say?"></input>
                             <button className="m-2 p-2 w-100 mx-auto btn rounded-2" type="button" id="submit">Submit</button  >
-                        </form>
+                        </form> */}
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             </div>
