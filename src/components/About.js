@@ -14,7 +14,7 @@ const About = () => {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: "linear-gradient(217deg, rgba(4, 106, 56, 0.8), rgba(4, 106, 56, 0.8) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 0, .8), rgba(0, 0, 0, 0) 70.71%)", color: '#333' }}
+                        contentStyle={{ background: "linear-gradient(217deg, rgba(4, 106, 56, 0.8), rgba(4, 106, 56, 0.8) 70.71%), linear-gradient(127deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70.71%), linear-gradient(336deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0) 70.71%)", color: '#333' }}
                         contentArrowStyle={{ borderRight: '7px solid  #fff' }}
                         date="January 28, 1988 - July 10, 2006"
                         iconStyle={{ background: '#fff', color: '#fff' }}      
