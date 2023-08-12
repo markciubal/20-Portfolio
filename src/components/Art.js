@@ -15,27 +15,27 @@ function Art() {
             <div id="art" className="row align-items-md-stretch">
                 <h2>Art</h2>
                 <hr></hr>
-                <div className="col-md-4">
-                    <div className="terrain portfolio-item-gradient rounded-3">
-                        <div>
+                <div className="p-3 col-md-4">
+                    <div className="terrain portfolio-item-transparent rounded-3">
+                        <div className="p-3">
                             <h3>Terrain Light</h3>
                             <p>Traced a path on plywood.</p>
                         </div>
                         <video id="art-terrain-video" className="w-100 rounded-3" src="art-terrain.mp4" onMouseOver={event => event.target.play()} onMouseOut={event => event.target.pause()} controls muted loop></video>
                     </div>
                 </div>
-                <div className="col-md-4">
-                    <div className="trex portfolio-item-gradient rounded-3">
-                            <div>
+                <div className="p-3 col-md-4">
+                    <div className="trex portfolio-item-transparent rounded-3">
+                            <div className="p-3">
                                 <h3>Plants & Prehistoric</h3>
                                 <p>A bit of life and death.</p>
                             </div>
                             <video id="art-trex-video" className="w-100 rounded-3" src="art-trex.mp4" onMouseOver={event => event.target.play()} onMouseOut={event => event.target.pause()} controls muted loop></video>
                         </div>
                 </div>
-                <div className="col-md-4">
-                    <div className="orbs portfolio-item-gradient rounded-3">
-                            <div>
+                <div className="p-3 col-md-4">
+                    <div className="orbs portfolio-item-transparent rounded-3">
+                            <div className="p-3">
                                 <h3>Orbs & Discs</h3>
                                 <p>A menagerie on display.</p>
                             </div>
@@ -43,7 +43,6 @@ function Art() {
                         </div>
                 </div>
             </div>
-            <hr></hr>
         </Parallax>
     )
 }

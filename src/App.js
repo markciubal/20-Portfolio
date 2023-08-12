@@ -5,12 +5,14 @@ import Art from './components/Art';
 import Web from './components/Web';
 import Photography from './components/Photography';
 import Footer from './components/Footer';
+import About from './components/About';
 
 function App() {
   return (
     <div id="App" className="App">
         <Header />
-        <main style={{marginTop: "6em"}}>
+        <main>
+          <About />
           <Web />
           <Art />
           <Photography />

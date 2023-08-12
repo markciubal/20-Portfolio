@@ -13,34 +13,26 @@ function Header() {
 
                 <div className="navbar-collapse collapse" id="navbars">
                     <ul className="navbar-nav ms-auto">
-                    {/* About Me, Portfolio, Contact, and Resume */}
-                    <li className="nav-item ms-auto">
-                            <a className="btn rounded-2" href="#about">About</a>
+                        {/* About Me, Portfolio, Contact, and Resume */}
+                        <li className="nav-item ms-auto">
+                            <a className="btn m-2 rounded-2" href="#about">About</a>
                         </li>
                         <li className="nav-item ms-auto">
-                            <a className="btn rounded-2" href="#art">Art</a>
+                            <a className="btn m-2 rounded-2" href="#web">Web</a>
                         </li>
                         <li className="nav-item ms-auto">
-                            <a className="btn rounded-2" href="#web">Web</a>
+                            <a className="btn m-2 rounded-2" href="#art">Art</a>
                         </li>
                         <li className="nav-item ms-auto">
-                            <a className="btn rounded-2" href="#photography">Photography</a>
+                            <a className="btn m-2 rounded-2" href="#photography">Photography</a>
                         </li>
                         <li className="nav-item ms-auto">
-                            <a className="btn rounded-2" href="#resume">Resume</a>
+                            <a className="btn m-2 rounded-2" href="#resume">Resume</a>
                         </li>
                         <li className="nav-item ms-auto">
-                            <a className="btn rounded-2" href="#footer">Contact</a>
+                            <a className="btn m-2 rounded-2" href="#footer">Contact</a>
                         </li>
-                        {/* <li className="nav-item dropdown">
-                            <a className="btn rounded-2 dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-                            <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li> */}
-                </ul>
+                    </ul>
                 </div>
             </div>
         </nav>

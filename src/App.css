@@ -1,8 +1,9 @@
 :root {
-  --black-shadow: 0 0 .5em #000;
+  --black-shadow: 0 0 1em #000;
+  --white-shadow: 0 0 1em #fff;
   --partial-rainbow-border: drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px #000000) drop-shadow(0 0px 1px #FF0000) drop-shadow(0 0px 1px #FFFF00) drop-shadow(0 0px 1px #00FF00) drop-shadow(0 0px 10px #0000FF) drop-shadow(0 0px 15px #2E2B5F) drop-shadow(0 0px 20px #8B00FF);
   --rainbow-border: drop-shadow(0px 0px 10px #000000) drop-shadow(0px 0px 10px #000000) drop-shadow(0 0px 1px #FF0000) drop-shadow(0 0px 1px #FFFF00) drop-shadow(0 0px 1px #00FF00) drop-shadow(0 0px 10px #0000FF) drop-shadow(0 0px 15px #2E2B5F) drop-shadow(0 0px 20px #8B00FF);
-  --grey-gradient: linear-gradient(217deg, rgba(245, 245, 245, 0.5), rgba(245, 245, 245, 0) 70.71%), linear-gradient(127deg, rgb(232, 232, 232, .75), rgba(225, 225, 225, 0) 70.71%), linear-gradient(336deg, rgba(210, 210, 210, 0.8), rgb(232, 232, 232) 70.71%);
+  --grey-gradient: linear-gradient(217deg, rgba(245, 245, 245, 0.5), rgba(245, 245, 245, 0) 70.71%), linear-gradient(127deg, rgb(232, 232, 232, .75), rgb(225, 225, 225) 70.71%), linear-gradient(336deg, rgba(245, 245, 245, 0.8), rgb(232, 232, 232) 70.71%);
 }
 
 body {
@@ -55,29 +56,31 @@ body {
 }
 
 .btn {
-  margin: 5px;
   color: black;
   border: 1px solid black;
-  font-weight: 500;
   text-transform: uppercase;
+  background: var(--grey-gradient);
+
 }
 
 .btn:hover {
-  animation: 5s linear 1s infinite alternate btn-text-cycle;
-  font-weight: 800;
+  animation: 2s linear 1s infinite alternate btn-text-cycle;
+  border: 1px solid black;
+
+  /* font-weight: 600; */
 }
 
 @keyframes btn-text-cycle {
   0% {
     /* box-shadow: var(--black-shadow); */
-    box-shadow: 0 0 .5em #000;
-    border: 1px solid black;
-    color: black;
+    box-shadow: 0 0 .5em darkred;
+    border: 1px solid darkred;
+    color: darkred;
   }
   14% {
-    box-shadow: 0 0 .5em red;
-    border: 1px solid red;
-    color: red;
+    box-shadow: 0 0 .5em darkred;
+    border: 1px solid darkred;
+    color: darkred;
   }
   28% {
     box-shadow: 0 0 .5em orange;
@@ -121,7 +124,7 @@ body {
   /* background: var(--grey-gradient); */
 }
 .navbar-brand {
-  font-size: 36px;  
+  font-size: calc(10px + 5vmin);
   font-weight: 800;
   color: #1b1b1b;
 }
@@ -186,6 +189,7 @@ h2 {
 }
 #web-chorechampion-video {
   border: 5px solid black;
+  box-shadow: var(--black-shadow);
 }
 #web-chorechampion{
   /* background-image: url('../public/web-chorechampion.png'); */
@@ -194,4 +198,20 @@ h2 {
 }
 .chorechampion-heading {
   font-weight: 800;
+}
+
+.knock-out-text {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: 800;
+  /* color:whitesmoke; */
+  text-shadow: var(--white-shadow);
+}
+.knock-out-subtext {
+  /* color:whitesmoke; */
+  text-shadow: var(--white-shadow);
+}
+
+.email-button {
+  text-transform: none;
 }

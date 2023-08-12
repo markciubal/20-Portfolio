@@ -9,7 +9,9 @@ function Footer() {
                 <h2>Contact</h2>
                 <div className="row align-items-center">
                     <div className="col">
-                        <a href="mailto:i@markciubal.com?subject=I saw your website!&body=Hi there, I'd like to contact you about something I saw on your website." >i@markciubal.com</a>
+                        <a href="mailto:i@markciubal.com?subject=I saw your website!&body=Hi there, I'd like to contact you about something I saw on your website." >
+                            <button className="email-button btn btn-outline-light" type="button">📨 i@markciubal.com</button>
+                        </a>
                         <br/>
                         <a href="https://www.linkedin.com/in/markciubal/">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
@@ -18,7 +20,6 @@ function Footer() {
                         </a>
                     </div>
                 </div>
-                <button className="btn btn-outline-light" type="button">Example button</button>
                 </div>
             </div>
         </div>
