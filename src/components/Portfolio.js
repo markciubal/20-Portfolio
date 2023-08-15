@@ -2,23 +2,23 @@ import { React, useEffect, useState, useRef } from 'react';
 import '../custom.scss';
 import { Parallax, Background } from "react-parallax";
 import FadeIn from 'react-fade-in/lib/FadeIn';
-function Web() {
+function Portfolio() {
     useEffect(() => {
-        document.getElementById('web-chorechampion-video').playbackRate = 2;
+        document.getElementById('portfolio-chorechampion-video').playbackRate = 2;
     });
     return (
         <FadeIn>
-            <div id="web">
+            <div id="portfolio">
                 <div className="row h-100 p-2 g-col-6">
-                    <h2>Web</h2>
+                    <h2>Portfolio</h2>
                     <hr></hr>
                     <Parallax
-                        bgImage="web-chorechampion.png"
+                        bgImage="portfolio-chorechampion.png"
                         strength={300}
                         blur={{ min: -15, max: 15 }}
                         className="rounded-3"
                     >
-                        <div id="web-chorechampion" className="row justify-content-center my-4 rounded-3">
+                        <div id="portfolio-chorechampion" className="row justify-content-center my-4 rounded-3">
                             <div className="col-12 col-md-4 p-3 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                 <div className="mx-auto w-100 py-4 my-4">
                                     <h3 className="chorechampion-heading">CHORECHAMPION</h3>
@@ -34,7 +34,7 @@ function Web() {
                                 </div>
                             </div>
                             <div className=" col-12 col-md-4 col-lg-4 text-center ">
-                                <video className="rounded-4 my-5" id="web-chorechampion-video" src="web-chorechampion.mp4" width="270" height="564" autoPlay controls muted loop></video>
+                                <video className="rounded-4 my-5" id="portfolio-chorechampion-video" src="portfolio-chorechampion.mp4" width="270" height="564" autoPlay controls muted loop></video>
                             </div>
                             <div className="p-3 align-items-center container-fluid align-self-center col-12 col-md-12 col-lg-4">
                                 <h1 className="knock-out-text text-left">Knock out your tasks with CHORECHAMPION.</h1>
@@ -48,4 +48,4 @@ function Web() {
     )
 }
 
-export default Web;
+export default Portfolio;

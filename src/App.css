@@ -122,6 +122,7 @@ body {
 }
 .navbar {
   /* background: var(--grey-gradient); */
+  border: 1px solid #ccc;
 }
 .navbar-brand {
   font-size: calc(10px + 5vmin);
@@ -187,12 +188,12 @@ h2 {
 #art-trex-video {
   border: 2px solid whitesmoke;
 }
-#web-chorechampion-video {
+#portfolio-chorechampion-video {
   border: 5px solid black;
   box-shadow: var(--black-shadow);
 }
-#web-chorechampion{
-  /* background-image: url('../public/web-chorechampion.png'); */
+#portfolio-chorechampion{
+  /* background-image: url('../public/portfolio-chorechampion.png'); */
   background-size: cover;
   background-repeat: no-repeat;
 }

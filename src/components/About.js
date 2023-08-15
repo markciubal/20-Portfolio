@@ -39,7 +39,10 @@ const About = () => {
                         <h5 className="vertical-timeline-element-subtitle">Marine Corps Recruit Depot, San Diego, CA, USA</h5>
                         <h5 className="vertical-timeline-element-subtitle">Camp Pendleton, CA, USA</h5>
                         <p>
-                            Trained over 75 personnel in Digital Network Intelligence (DNI) and SIGINT Geospatial Metadata Analysis (GMA) as a certified National Cryptologic School (NCS) adjunct instructor. Trained analysts during a 3 day ArcGIS course. While deployed in support of Operation Iraqi Freedom, performed the duties as the senior analyst and liaison officer in a joint service environment. Produced and enforced quality control and dissemination of over 250 time sensitive reports and products. Employed multi-intelligence (SIGINT, HUMINT, IMINT and OSINT) analysis and national level databases to report on and exploit high value targets. Assisted in the disruption of insurgent networks through the use of analytic techniques.
+                            Trained over 75 personnel in Digital Network Intelligence (DNI) and SIGINT Geospatial Metadata Analysis (GMA) as a certified National Cryptologic School (NCS) adjunct instructor. Trained analysts during a 1 month long course required to deploy as an analyst.
+                        </p>
+                        <p>
+                           In support of Operation Iraqi Freedom, performed the duties as the senior analyst and liaison officer in a joint service environment. Produced and enforced quality control and dissemination of over 250 time sensitive reports and products. Employed multi-intelligence (SIGINT, HUMINT, IMINT and OSINT) analysis and national level databases to report on and exploit high value targets. Assisted in the disruption of insurgent networks through the use of analytic techniques.
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
@@ -51,7 +54,7 @@ const About = () => {
                         <h3 className="vertical-timeline-element-title">Intelligence Analyst</h3>
                         <h5 className="vertical-timeline-element-subtitle">Beale Air Force Base, CA</h5>
                         <p>
-                            As a SIGINT Fusion Analyst (SFA) program manager, collaborated with resident subject matter experts to identify problems with exploiting a specific SIGINT target set. Trained Air Force analysts during a 3 day ArcGIS course for National Security Agency (NSA) credit. Utilized the expertise of other analysts to develop unique solutions for other problems within the community, including dissemination methods, interactive historic request for information (RFI) solutions, and all-source intelligence analysis.
+                            As a SIGINT Fusion Analyst (SFA) program manager, collaborated with resident subject matter experts to identify problems with exploiting a specific SIGINT target set. Utilized the expertise of other analysts to develop unique solutions for other problems within the community, including dissemination methods, interactive historic request for information (RFI) solutions, and all-source intelligence analysis.
                         </p>
                         <p>
                             Full-stack developer for HASTE (High-Value Ad-Hoc SIGINT Tracking Environment), a web and Google Earth program using a PHP, MySQL, and jQuery solution to address specific requirements pertaining to a dynamic target. HASTE required a variety of programming languages and interfaces to build. It improved data comprehension for analysts and leadership. HASTE enabled users to view data in a variety of formats, with an emphasis on enhancing an analyst’s awareness of geo-temporal data with machine-assisted pattern analysis.

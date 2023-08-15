@@ -1,9 +1,9 @@
 import { React, useEffect, useState, useRef } from 'react';
 import '../custom.scss';
 
-function Footer() {
+function Contact() {
     return (
-        <div id="footer" className="row align-items-md-stretch">
+        <div id="contact" className="row align-items-md-stretch">
             <div className="col-12">
                 <div className="h-100 p-5 rounded-3">
                 <h2>Contact</h2>
@@ -32,4 +32,4 @@ function Footer() {
     )
 }
 
-export default Footer;
+export default Contact;

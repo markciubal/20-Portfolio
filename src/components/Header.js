@@ -2,16 +2,16 @@ import { React, useEffect, useState, useRef } from 'react';
 import '../custom.scss';
 import 'bootstrap/dist/js/bootstrap.bundle';
 import Art from '../components/Art';
-import Web from '../components/Web';
+import Web from './Portfolio';
 import Photography from '../components/Photography';
-import Footer from '../components/Footer';
+import Contact from './Contact';
 import About from '../components/About';
 
 
 function Header(props) {
     return (
         <>
-        <nav className="navbar navbar-expand-lg bg-body-tertiary" aria-label="Eleventh navbar example">
+        <nav className="navbar navbar-expand-lg bg-body-tertiary rounded-3" aria-label="Eleventh navbar example">
             <div className="container-md">
                 <a className="navbar-brand" href="#">MARK CIUBAL</a>
                 <button 
@@ -33,7 +33,7 @@ function Header(props) {
                             <a className="btn m-2 rounded-2" onClick={() => props.setActivePage("about")}>About</a>
                         </li>
                         <li className="nav-item ms-auto">
-                            <a className="btn m-2 rounded-2" onClick={() => props.setActivePage("web")}>Web</a>
+                            <a className="btn m-2 rounded-2" onClick={() => props.setActivePage("portfolio")}>Portfolio</a>
                         </li>
                         {/* <li className="nav-item ms-auto">
                             <a className="btn m-2 rounded-2" onClick={() => props.setActivePage("art")}>Art</a>
@@ -41,6 +41,9 @@ function Header(props) {
                         {/* <li className="nav-item ms-auto">
                             <a className="btn m-2 rounded-2" onClick={() => props.setActivePage("photography")}>Photography</a>
                         </li> */}
+                        <li className="nav-item ms-auto">
+                            <a className="btn m-2 rounded-2" onClick={() => props.setActivePage("contact")}>Contact</a>
+                        </li>
                         <li className="nav-item ms-auto">
                             <a className="btn m-2 rounded-2" onClick={() => props.setActivePage("resume")}>Resume</a>
                         </li>

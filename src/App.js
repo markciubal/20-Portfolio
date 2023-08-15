@@ -2,9 +2,9 @@ import { React, useEffect, useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Art from './components/Art';
-import Web from './components/Web';
+import Portfolio from './components/Portfolio';
 import Photography from './components/Photography';
-import Footer from './components/Footer';
+import Contact from './components/Contact';
 import About from './components/About';
 
 
@@ -15,8 +15,8 @@ function App() {
   const renderActivePage = () => {
     if (activePage === "about") {
       return <About />;
-    } else if (activePage === "web") {
-      return <Web />;
+    } else if (activePage === "portfolio") {
+      return <Portfolio />;
     } else if (activePage === "photography") {
       return <Photography />;
     }
@@ -29,7 +29,7 @@ function App() {
       <main>
         {renderActivePage()}
       </main>
-      <Footer/>
+      <Contact/>
     </div>
   );
 }
