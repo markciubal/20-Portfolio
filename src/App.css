@@ -58,8 +58,9 @@ body {
 .btn {
   color: black;
   border: 1px solid black;
+  font-size: .8em;
   text-transform: uppercase;
-  background: var(--grey-gradient);
+  /* background: var(--grey-gradient); */
 
 }
 
@@ -73,42 +74,42 @@ body {
 @keyframes btn-text-cycle {
   0% {
     /* box-shadow: var(--black-shadow); */
-    box-shadow: 0 0 .5em darkred;
+    /* box-shadow: 0 0 .5em darkred; */
     border: 1px solid darkred;
     color: darkred;
   }
   14% {
-    box-shadow: 0 0 .5em darkred;
+    /* box-shadow: 0 0 .5em darkred; */
     border: 1px solid darkred;
     color: darkred;
   }
   28% {
-    box-shadow: 0 0 .5em orange;
+    /* box-shadow: 0 0 .5em orange; */
     border: 1px solid orange;
     color: orange;
   }
   42% {
-    box-shadow: 0 0 .5em gold;
+    /* box-shadow: 0 0 .5em gold; */
     border: 1px solid gold;
     color: gold;
   }
   56% {
-    box-shadow: 0 0 .5em green;
+    /* box-shadow: 0 0 .5em green; */
     border: 1px solid green;
     color: green;
   }
   70% {
-    box-shadow: 0 0 .5em blue;
+    /* box-shadow: 0 0 .5em blue; */
     border: 1px solid blue;
     color: blue;
   }
   84% {
-    box-shadow: 0 0 .5em indigo;
+    /* box-shadow: 0 0 .5em indigo; */
     border: 1px solid indigo;
     color: indigo;
   }
   100% {
-    box-shadow: 0 0 .5em violet;
+    /* box-shadow: 0 0 .5em violet; */
     border: 1px solid violet;
     color: violet;
   }
@@ -154,7 +155,7 @@ body {
 
 }
 .portfolio-item-transparent {
-  background-color: rgba(245, 245, 245, .9);
+  background-color: rgba(245, 245, 245, .70);
 }
 .portfolio-item:hover {
   transition: all .5s;
@@ -215,4 +216,33 @@ h2 {
 
 .email-button {
   text-transform: none;
+}
+
+#regexsaurus {
+  animation-iteration-count: infinite;
+  background-color: darkred !important;
+  border-color: red !important;
+  color: white !important;
+}
+
+#regexsaurus:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+  background-color: darkred !important;
+  border-color: red !important;
+  color: white !important;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg) scale(1.2); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
