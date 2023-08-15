@@ -14,7 +14,7 @@ const About = () => {
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        contentStyle={{ background: "linear-gradient(217deg, rgba(4, 106, 56, 0.8), rgba(4, 106, 56, 0.8) 70.71%), linear-gradient(127deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70.71%), linear-gradient(336deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0) 70.71%)", color: '#333' }}
+                        contentStyle={{ background: "linear-gradient(217deg, rgba(4, 106, 56, 0.75), rgba(4, 106, 56, 0.75) 70.71%), linear-gradient(127deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0) 70.71%), linear-gradient(336deg, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0) 70.71%)", color: '#333' }}
                         contentArrowStyle={{ borderRight: '7px solid  #fff' }}
                         date="January 28, 1988 - July 10, 2006"
                         iconStyle={{ background: '#fff', color: '#fff' }}      
@@ -38,8 +38,6 @@ const About = () => {
                         <h3 className="vertical-timeline-element-title">United States Marine Corps</h3>
                         <h5 className="vertical-timeline-element-subtitle">Marine Corps Recruit Depot, San Diego, CA, USA</h5>
                         <h5 className="vertical-timeline-element-subtitle">Camp Pendleton, CA, USA</h5>
-                        <h5 className="vertical-timeline-element-subtitle">Fallujah, IZ</h5>
-                        <h5 className="vertical-timeline-element-subtitle">Sinjar, IZ</h5>
                         <p>
                             Trained over 75 personnel in Digital Network Intelligence (DNI) and SIGINT Geospatial Metadata Analysis (GMA) as a certified National Cryptologic School (NCS) adjunct instructor. Trained analysts during a 3 day ArcGIS course. While deployed in support of Operation Iraqi Freedom, performed the duties as the senior analyst and liaison officer in a joint service environment. Produced and enforced quality control and dissemination of over 250 time sensitive reports and products. Employed multi-intelligence (SIGINT, HUMINT, IMINT and OSINT) analysis and national level databases to report on and exploit high value targets. Assisted in the disruption of insurgent networks through the use of analytic techniques.
                         </p>
