@@ -1,7 +1,7 @@
 import { React, useEffect, useState, useRef } from 'react';
 import '../custom.scss';
 import { Parallax, Background } from "react-parallax";
-import FadeIn from 'react-fade-in/lib/FadeIn';
+
 function Portfolio() {
     useEffect(() => {
         document.getElementById('portfolio-chorechampion-video').playbackRate = 2;
