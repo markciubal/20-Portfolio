@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import Photography from './components/Photography';
 import Contact from './components/Contact';
 import About from './components/About';
-
+import Resume from './components/Resume';
 
 function App() {
   const [activePage, setActivePage] = useState("about");
@@ -19,6 +19,8 @@ function App() {
       return <Portfolio />;
     } else if (activePage === "photography") {
       return <Photography />;
+    } else if (activePage === "resume") {
+      return <Resume />;
     }
     return null;
   };

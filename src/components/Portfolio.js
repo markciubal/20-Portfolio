@@ -1,16 +1,16 @@
 import { React, useEffect, useState, useRef } from 'react';
 import '../custom.scss';
 import { Parallax, Background } from "react-parallax";
+import PageHeader from './PageHeader';
 
 function Portfolio() {
     useEffect(() => {
         document.getElementById('portfolio-chorechampion-video').playbackRate = 2;
     });
-    return (
-        <div id="portfolio">
-            <div className="row h-100 p-2 g-col-6">
-                <h2>Portfolio</h2>
-                <hr></hr>
+    return (                
+        <>
+            <PageHeader title="Portfolio" />
+            <div  id="portfolio" className="row h-100 p-2 g-col-6">
                 <Parallax
                     bgImage="portfolio-chorechampion.png"
                     strength={300}
@@ -45,15 +45,15 @@ function Portfolio() {
             </div>
             {/* REGEXSAURUS and Retro Weather Dashboard */}
             <div className="row align-items-center">
-            <div className="col-6">
+            <div className="col-12 col-md-6 my-2">
                     <Parallax
                         bgImage="portfolio-pick-a-pic.jpg"
                         strength={300}
                         blur={{ min: -15, max: 15 }}
                         className="rounded-3"
                     >
-                        <div id="portfolio-chorechampion" className="rowjustify-content-left my-4 rounded-3">
-                            <div className="col-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
+                        <div id="portfolio-chorechampion" className="row justify-content-end my-4 rounded-3">
+                            <div className="col-10 col-md-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                 <div className="mx-auto w-100 py-4 my-4">
                                     <h3 className="chorechampion-heading">Pick-a-Pic</h3>
                                     <p>Pick-a-Pick is a small application I contributed to that is intended for users with a disability or language barrier. A choice is communicated clearly using the application. Users can select from selections of pictures. The user searches for pictures, and options can be presented. Also, there is a speech feature that will say the text in english.</p>
@@ -68,7 +68,7 @@ function Portfolio() {
                         </div>
                     </Parallax>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6 my-2">
                     <Parallax
                         bgImage="portfolio-regexsaurus.jpg"
                         strength={300}
@@ -76,7 +76,7 @@ function Portfolio() {
                         className="rounded-3"
                     >
                         <div id="portfolio-chorechampion" className="row justify-content-left my-4 rounded-3">
-                            <div className="col-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
+                            <div className="col-10 col-md-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                 <div className="mx-auto w-100 py-4 my-4">
                                     <h3 className="chorechampion-heading">REGEXSAURUS</h3>
                                     <p>You can find an AI helper I built called REGEXSAURUS that will break down a REGEX statement for you!</p>
@@ -95,7 +95,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="row align-items-center">
-            <div className="col-6">
+            <div className="col-12 col-md-6 my-2">
                     <Parallax
                         bgImage="portfolio-retro-weather-dashboard.jpg"
                         strength={300}
@@ -103,7 +103,7 @@ function Portfolio() {
                         className="rounded-3"
                     >
                         <div id="portfolio-chorechampion" className="row justify-content-end my-4 rounded-3">
-                            <div className="col-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
+                            <div className="col-10 col-md-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                 <div className="mx-auto w-100 py-4 my-4">
                                 <h3 className="chorechampion-heading">RETRO WEATHER DASHBOARD</h3>
                                     <p>Type in your location and get back some retro looking weather information.</p>
@@ -118,15 +118,15 @@ function Portfolio() {
                         </div>
                     </Parallax>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6 my-2">
                     <Parallax
                         bgImage="portfolio-technical-quiz.jpg"
                         strength={300}
                         blur={{ min: -15, max: 15 }}
                         className="rounded-3"
                     >
-                        <div id="portfolio-chorechampion" className="row justify-content-end my-4 rounded-3">
-                            <div className="col-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
+                        <div id="portfolio-chorechampion" className="row justify-content-left my-4 rounded-3">
+                            <div className="col-10 col-md-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                 <div className="mx-auto w-100 py-4 my-4">
                                 <h3 className="chorechampion-heading">Technical Quiz</h3>
                                     <p>Technical quiz for some JavaScript concepts. This can be adapted by supplying different JSON data in a specific format.</p>
@@ -143,7 +143,7 @@ function Portfolio() {
                 </div>
             </div>
             <div className="row align-items-center">
-            <div className="col-6">
+            <div className="col-12 col-md-6 my-2">
                     <Parallax
                         bgImage="portfolio-scribe.jpg"
                         strength={300}
@@ -151,7 +151,7 @@ function Portfolio() {
                         className="rounded-3"
                     >
                         <div id="portfolio-chorechampion" className="row justify-content-end my-4 rounded-3">
-                            <div className="col-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
+                            <div className="col-10 col-md-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                 <div className="mx-auto w-100 py-4 my-4">
                                     <h3 className="chorechampion-heading">Scribe</h3>
                                     <p>Used boilerplate from an assignment to style a note taking application.</p>
@@ -166,15 +166,15 @@ function Portfolio() {
                         </div>
                     </Parallax>
                 </div>
-                <div className="col-6">
+                <div className="col-12 col-md-6 my-2">
                     <Parallax
                         bgImage="portfolio-tastebook.jpg"
                         strength={300}
                         blur={{ min: -15, max: 15 }}
                         className="rounded-3"
                     >
-                        <div id="portfolio-chorechampion" className="row justify-content-end my-4 rounded-3">
-                            <div className="col-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
+                        <div id="portfolio-chorechampion" className="row justify-content-left my-4 rounded-3">
+                            <div className="col-10 col-md-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                 <div className="mx-auto w-100 py-4 my-4">
                                 <h3 className="chorechampion-heading">Tastebook Routes and Models</h3>
                                     <p>Built the routes and models for a fake social media website.</p>
@@ -190,7 +190,7 @@ function Portfolio() {
                     </Parallax>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
 
