@@ -20,7 +20,7 @@ const About = () => {
                         iconStyle={{ background: '#fff', color: '#fff', objectFit: "cover" }}
                         icon={<img class="vertical-timeline-element-icon" src="./mark-ciubal.jpg"></img>}>
                         <h3 className="vertical-timeline-element-title">Me</h3>
-                        <h5>Living with my wife and dogs in Roseville, California</h5>
+                        <p>Living with my wife and dogs in Roseville, California</p>
                         {/* TODO: Add map of Roseville to page like in the youth section. */}
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99552.44119614415!2d-121.37501799781158!3d38.76338777930034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809b1f65623c1879%3A0x22af4a52ba493999!2sRoseville%2C%20CA!5e0!3m2!1sen!2sus!4v1692138556582!5m2!1sen!2sus" className="w-100" height="300" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         <p>My hobbies are spending time with my family, web development, internet of things, </p>
@@ -32,7 +32,7 @@ const About = () => {
                         iconStyle={{ background: '#fff', color: '#fff', objectFit: "cover" }}
                         icon={<img class="vertical-timeline-element-icon" src="./uc-davis.png"></img>}>
                         <h3 className="vertical-timeline-element-title">Learning</h3>
-                        <h5>University of California Davis</h5>
+                        <h5>University of Californnia Davis</h5>
                         <h5>Continuing and Professional Education</h5>
                         <h5>Full-stack Developer Certification</h5>
                         <p>
