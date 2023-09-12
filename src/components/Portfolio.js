@@ -32,9 +32,9 @@ function Portfolio() {
                                 </a>
                             </div>
                         </div>
-                        <div className="col-12 col-md-4 col-lg-4 text-center ">
+                        {/* <div className="col-12 col-md-4 col-lg-4 text-center ">
                             <iframe className="rounded-4 my-5" id="portfolio-chorechampion-video" src="https://pinpoint-davis-383be2067b3d.herokuapp.com/" width="270" height="564"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
+                        </div> */}
                         <div className="p-3 align-items-center container-fluid align-self-center col-12 col-md-12 col-lg-4">
                             <h1 className="knock-out-text text-left">Comment anywhere.</h1>
                             <h2 className="knock-out-subtext text-left">Pin the world.</h2>
