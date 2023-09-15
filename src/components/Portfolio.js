@@ -88,7 +88,7 @@ function Portfolio() {
                             <div className="col-10 col-md-6 p-3 m-4 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                 <div className="mx-auto w-100 py-4 my-4">
                                     <h3 className="chorechampion-heading">Pick-a-Pic</h3>
-                                    <p>Pick-a-Pick is a small application I contributed to that is intended for users with a disability or language barrier. A choice is communicated clearly using the application. Users can select from selections of pictures. The user searches for pictures, and options can be presented. Also, there is a speech feature that will say the text in english.</p>
+                                    <p>Pick-a-Pick is a small application I contributed to that is intended for users with a disability or language barrier. A choice is communicated clearly using the application. Users can select from selections of pictures. The user searches for pictures, and options can be presented. Also, there is a speech feature that will say the text in English.</p>
                                     <p>Technologies used: JavaScript, CSS</p>
                                     <a href="https://github.com/markciubal/pick-a-pic" target="_blank" rel="noreferrer">
                                         <svg style={{marginTop: "-5px"}}  height="16" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
