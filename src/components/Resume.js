@@ -15,8 +15,8 @@ function Resume() {
                         <h3>EDUCATION</h3>
                         <h5>Formal Education</h5>
                         <p>A.S. in Natural Sciences | Sierra College, Rocklin, California | May 2020</p>
-                        <p>Projected Completion 2023 - Full-Stack Developer Boot Camp | UC Davis, Online Program</p>
-                        <p>Projected Completion 2024 - A.S in Computer Science| Sierra College, Rocklin, California</p>
+                        <p>Certified Full-Stack Developer Boot Camp | UC Davis, Online Program</p>
+                        <p>Projected Completion 2024 - A.S in Computer Science | Sierra College, Rocklin, California</p>
                         <p>Projected Completion 2024 - A.A. in Philosophy | Sierra College, Rocklin, California</p>
                         <h5>Additional Training</h5>
                         <p>Network Exploitation and Target Development Immersion Training (NETA3001)</p>
