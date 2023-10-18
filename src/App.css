@@ -135,8 +135,7 @@ body {
   margin: 1%;
 }
 .navbar {
-  /* background: var(--grey-gradient); */
-  border: 1px solid #ccc;
+  background: rgba(0,0,0,0);
 }
 .navbar-brand {
   font-size: calc(10px + 5vmin);
@@ -188,6 +187,8 @@ h2 {
   color: black;
   font-size: 2em;
   text-transform: uppercase;
+  margin-left: 4%;
+
 }
 
 .terrain {
