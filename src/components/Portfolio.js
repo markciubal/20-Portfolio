@@ -21,7 +21,7 @@ function Portfolio() {
                         <div className="col-12 col-md-4 p-3 portfolio-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                             <div className="mx-auto w-100 py-4 my-4">
                                 <h3 className="chorechampion-heading"></h3>
-                                <img src="pinpoint-logo.svg" style={{height: "25px"}}></img> Pinpoint
+                                <img src="pinpoint-logo.svg" style={{height: "25px"}}></img><span style={{verticalAlign: 'middle', fontSize: '20pt'}}>inpoint</span>
                                 <p>Pinpoint was a group project to build a geospatial social network platform.</p>
                                 <p>Technologies used: JavaScript, CSS, React, GraphQL, Apollo, React MapGL.</p>
                                 <a className="btn rounded-2" href="https://pinpoint-davis-383be2067b3d.herokuapp.com/" target="_blank" rel="noreferrer">Pinpoint</a> 
@@ -112,7 +112,7 @@ function Portfolio() {
                                 <div className="mx-auto w-100 py-4 my-4">
                                     <h3 className="chorechampion-heading">REGEXSAURUS</h3>
                                     <p>You can find an AI helper I built called REGEXSAURUS that will break down a REGEX statement for you!</p>
-                                    <p>Technologies used: JavaScript, CSS, ChatGPI API</p>
+                                    <p>Technologies used: JavaScript, CSS, ChatGPT API</p>
                                     <a id="regexsaurus" className="btn rounded-2" href="https://regexsaurus-a27124d086aa.herokuapp.com/" target="_blank" rel="noreferrer">REGEXSAURUS</a> 
                                     <a href="https://github.com/markciubal/17-REGEXSAURUS" target="_blank" rel="noreferrer">
                                         <svg style={{marginTop: "-5px"}}  height="16" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="32" data-view-component="true" class="octicon octicon-mark-github v-align-middle color-fg-default">
