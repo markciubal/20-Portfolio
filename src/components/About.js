@@ -47,7 +47,7 @@ const About = () => {
                         date="March 13, 2023 - September 5, 2023"
                         iconStyle={{ background: '#fff', color: '#fff', objectFit: "cover" }}
                         icon={<img class="vertical-timeline-element-icon" src="./uc-davis.png"></img>}>
-                        <h3 className="vertical-timeline-element-title">Learning</h3>
+                        <h3 className="vertical-timeline-element-title">Coding Bootcamp</h3>
                         <h5>University of California Davis</h5>
                         <h5>Continuing and Professional Education</h5>
                         <h5>Full-stack Developer Certification</h5>
