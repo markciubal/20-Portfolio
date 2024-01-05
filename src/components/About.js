@@ -11,7 +11,23 @@ const About = () => {
         <>
             <PageHeader title="About" />
             <div id="about" className="row align-items-md-stretch">
-
+                <div className="col-md-6">
+                    <div className="who-am-i h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Who am I?</h2>
+                        <p>
+                            I'm a full-stack developer with a passion for learning and teaching. I'm a veteran of the United States Marine Corps and a graduate of the University of California Davis Full-Stack Developer Bootcamp. I'm currently a student earning my Computer Science degree.
+                        </p>
+                    </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="knowledged-card h-100 p-5 bg-light border rounded-3">
+                        <h2>Current Project</h2>
+                        <h3><a href="https://knowledged-c6f63efaf1e0.herokuapp.com/"><img src="../knowledged.svg" width="50px" style={{ marginRight: "10px"}}/>knowledged</a></h3>
+                        <p>
+                            Continued from a project from my coding bootcamp, knowledged is a geospatial encylopedia. A place to learn about the world around you.
+                        </p>
+                    </div>
+                </div>
                 <VerticalTimeline>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"

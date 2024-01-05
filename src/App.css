@@ -278,3 +278,13 @@ p {
   transform: scale(1.1);
   transition: all .5s;
 }
+
+.who-am-i {
+  background-image: url('../public/who-am-i.png');
+  background-size: cover;
+}
+
+.knowledged-card {
+  background-image: url('../public/knowledged.png');
+  background-size: cover;
+}
