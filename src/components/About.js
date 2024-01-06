@@ -32,7 +32,7 @@ const About = (props) => {
                                     <div className="mx-auto w-100 py-4 my-4">
                                     <h2>WHO AM I</h2>
                                     <p>
-                                        I am an analyst and web developer. I am interested in philosophy, politics, programming, photography, and dogs.
+                                        I am an analyst and web developer. I am interested in philosophy, politics, programming, photography, and alliterations.
                                     </p>
                                     <p>
                                         Hop on over to the <a className="text-link" onClick={(e) => {
