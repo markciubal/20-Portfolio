@@ -14,13 +14,15 @@ function App() {
   // Need About Me (done), Portfolio (rename web), Contact, and Resume.
   const renderActivePage = () => {
     if (activePage === "about") {
-      return <About />;
+      return <About setActivePage={setActivePage}/>;
     } else if (activePage === "portfolio") {
       return <Portfolio />;
     } else if (activePage === "photography") {
       return <Photography />;
     } else if (activePage === "resume") {
       return <Resume />;
+    } else if (activePage === "contact") {
+      return <Contact />;
     }
     return null;
   };
@@ -31,7 +33,6 @@ function App() {
       <main>
         {renderActivePage()}
       </main>
-      <Contact/>
     </div>
   );
 }
