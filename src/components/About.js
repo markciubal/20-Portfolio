@@ -61,7 +61,10 @@ const About = (props) => {
                                     <h2>Current Project</h2>
                                     <h3><a href="https://knowledged-c6f63efaf1e0.herokuapp.com/"><img src="../knowledged.svg" width="50px" style={{ marginRight: "10px"}}/>knowledged</a></h3>
                                     <p>
-                                        Knowledged is a geospatial encylopedia continued from a project from my coding bootcamp. A place to learn about the world around you.
+                                        Knowledged is a geospatial encylopedia continued from a project from my coding bootcamp. It is a social networking app that allows users to post information about a location. Users can post text anywhere on the world.
+                                    </p>
+                                    <p>
+                                        Map Your Story. Explore Theirs. Kind Words, Kind World. Welcome to Knowledged.
                                     </p>
                                     </div>
                                 </div>
