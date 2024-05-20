@@ -51,6 +51,12 @@ function Header(props) {
                                 setActiveHeader(e.target);
                             }}>Portfolio</a>
                         </li>
+                        <li className="nav-item ms-auto">
+                            <a className="header-btn btn m-2 rounded-2" onClick={(e) => {
+                                props.setActivePage("art");
+                                setActiveHeader(e.target);
+                            }}>Art</a>
+                        </li>
                         {/* <li className="nav-item ms-auto">
                             <a className="btn m-2 rounded-2" onClick={() => props.setActivePage("art")}>Art</a>
                         </li> */}

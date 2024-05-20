@@ -3,7 +3,6 @@ import './App.css';
 import Header from './components/Header';
 import Art from './components/Art';
 import Portfolio from './components/Portfolio';
-import Photography from './components/Photography';
 import Contact from './components/Contact';
 import About from './components/About';
 import Resume from './components/Resume';
@@ -17,8 +16,8 @@ function App() {
       return <About setActivePage={setActivePage}/>;
     } else if (activePage === "portfolio") {
       return <Portfolio />;
-    } else if (activePage === "photography") {
-      return <Photography />;
+    } else if (activePage === "art") {
+      return <Art />;
     } else if (activePage === "resume") {
       return <Resume />;
     } else if (activePage === "contact") {
