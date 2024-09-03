@@ -58,7 +58,7 @@ const About = (props) => {
                             <div id="about-knowledged" className="row justify-content-center m-4 rounded-3">
                                 <div className="col-12 p-3 about-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                     <div className="mx-auto w-100 py-4 my-4">
-                                    <h3><a href="https://www.projectcivilian.com/"><img src="../projectCivilian.svg" width="50px" style={{ marginRight: "10px"}}/>projectCivilian</a></h3>
+                                    <h3><a href="https://www.projectcivilian.org/"><img src="../projectCivilian.svg" width="50px" style={{ marginRight: "10px"}}/>projectCivilian</a></h3>
                                     <p>
                                         Help to bridge the gap between citizens and their leaders.
                                     </p>
