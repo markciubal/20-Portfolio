@@ -58,13 +58,12 @@ const About = (props) => {
                             <div id="about-knowledged" className="row justify-content-center m-4 rounded-3">
                                 <div className="col-12 p-3 about-item-transparent align-items-center text-center align-self-center d-flex rounded-3">
                                     <div className="mx-auto w-100 py-4 my-4">
-                                    <h3><a href="https://www.growl.world/"><img src="../growl.svg" width="50px" style={{ marginRight: "10px"}}/>GROWL</a></h3>
+                                    <h3><a href="https://www.projectcivilian.com/"><img src="../projectCivilian.svg" width="50px" style={{ marginRight: "10px"}}/>projectCivilian</a></h3>
                                     <p>
-                                        Growl bridges the gap between citizens and their leaders.
+                                        Help to bridge the gap between citizens and their leaders.
                                     </p>
                                     <p>
-                                    The app allows users to pinpoint a specific location on a map where they identify a problem, providing a visual representation of issues within a community. It automatically retrieves and displays contact information for elected leaders responsible for that area, facilitating direct communication. Users can email these leaders directly from the app, enabling swift and effective advocacy for addressing local concerns.
-                                    </p>
+                                    projectCivilian energizes your advocacy efforts by deploying advanced geospatial analytics to put your problems on a map, and magnify the impact of your actions.                                    </p>
                                     </div>
                                 </div>
                             </div>
